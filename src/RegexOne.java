@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class regexOne {
+public class RegexOne {
     public static void main(String[] args) {
         String date1 = "2020/12/31 19:23";
         String date2 = "2020/13/77 99:99";
