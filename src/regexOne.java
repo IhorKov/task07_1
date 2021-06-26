@@ -16,9 +16,7 @@ public class regexOne {
 
         String regex = "^[0-9]{4}/(1[0-2]|0[1-9])/(3[01]|[12][0-9]|0[1-9])\s([01][0-9]|2[0-3]):([0-5][0-9])$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher;
-
-        matcher = pattern.matcher(str);
+        Matcher matcher = pattern.matcher(str);
 
         if(matcher.matches()) {
             System.out.println("valid");
